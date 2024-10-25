@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: 'Figtree', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 350px;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 1);
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.card-img img {
+    width: 100%;
+    max-width:fit-content;
+    border-radius: 15px;
+    margin-top: -10px;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.card-author h2 {
+    font-size: 1.1rem;
+    margin: 15px 0 0;
+    display: inline-block;
+}
+
+.attribution {
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 50%);
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-body .title:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
